@@ -55,14 +55,6 @@ export class MainComponent {
   constructor() {}
 
   ngOnInit(): void {
-    const swiper = new Swiper('.blog-slider', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
+    
   }
 }
